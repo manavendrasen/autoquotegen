@@ -1,14 +1,7 @@
-@font-face {
-  font-family: "Gilroy";
-  font-weight: 900;
-  src: local("Gilroy"), url(./fonts/Gilroy-ExtraBold.otf) format("opentype");
-}
-@font-face {
-  font-family: "Gilroy";
-  src: local("Gilroy"), url(./fonts/Gilroy-Light.otf) format("opentype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Gilroy";
+  font-family: "Poppins";
 }
